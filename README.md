@@ -9,6 +9,7 @@ LLM Summarization: Provides concise and relevant answers using an open-source LL
 Modern Web UI: Built with React and styled using Tailwind CSS for a seamless user experience.
 State Management: Utilizes Redux or Context API for managing application state.
 API Communication: Axios is used to interact with the backend efficiently.
+
 Tech Stack:
 
 Backend: Python, FastAPI, LangGraph
