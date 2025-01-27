@@ -1,0 +1,12 @@
+chatbot-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.dll
+*.lib
+.vscode/
+.DS_Storechatbot-env/
+huggingface_cache/
+*.crdownload
