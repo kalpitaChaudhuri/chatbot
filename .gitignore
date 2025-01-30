@@ -5,9 +5,11 @@ __pycache__/
 *.pyd
 .env
 chatbot-env/
+# Database
 *.db
 *.dll
 *.lib
+# VS Code
 .vscode/
 .DS_Storechatbot-env/
 huggingface_cache/
