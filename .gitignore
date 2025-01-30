@@ -1,8 +1,10 @@
-chatbot-env/
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.env
+chatbot-env/
 *.db
 *.dll
 *.lib
