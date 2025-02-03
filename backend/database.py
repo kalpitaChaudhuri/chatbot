@@ -44,3 +44,6 @@ def get_db():
         yield db
     finally:
         db.close()
+
+if __name__ == "__main__":
+    create_tables()  # This will create the tables in your PostgreSQL database
