@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+chatbot-env/
+# Database
+*.db
+*.dll
+*.lib
+# VS Code
+.vscode/
+.DS_Store
+# Hugging Face Cache
+huggingface_cache/
+# Temporary download files
+*.crdownload
