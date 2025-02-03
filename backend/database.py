@@ -1,6 +1,5 @@
 from sqlalchemy import create_engine, Column, Integer, String, DECIMAL, Text
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, declarative_base  # Updated import
 
 # PostgreSQL connection URL
 SQLALCHEMY_DATABASE_URL = "postgresql://postgres:123@localhost/chatbot_db"  # Update with your details
@@ -46,4 +45,4 @@ def get_db():
         db.close()
 
 if __name__ == "__main__":
-    create_tables()  # This will create the tables in your PostgreSQL database
+    create_tables()  # This will create the tables in PostgreSQL database
