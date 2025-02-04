@@ -24,10 +24,11 @@ class Product(Base):
 # Define a model (table) for 'suppliers'
 class Supplier(Base):
     __tablename__ = 'suppliers'
+
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String)
     contact_info = Column(Text)
-    product_categories = Column(Text)
+    product_categories_offered = Column(Text)  # This should match the column name you're using
 
 # Create a session factory
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
