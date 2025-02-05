@@ -5,14 +5,43 @@ __pycache__/
 *.pyd
 .env
 chatbot-env/
+
 # Database
 *.db
 *.dll
 *.lib
+
 # VS Code
 .vscode/
 .DS_Store
+
 # Hugging Face Cache
 huggingface_cache/
+
 # Temporary download files
 *.crdownload
+
+# Node.js / React specific
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
